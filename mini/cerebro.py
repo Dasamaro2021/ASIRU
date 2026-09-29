@@ -15,7 +15,7 @@ from intents import detectar_intent
 
 # Configuración de Ollama/Llama2
 OLLAMA_HOST = "http://localhost:11434"  # Puerto por defecto de Ollama
-MODELO = "phi3"  # Modelo que descargaste con `ollama run llama2`
+MODELO = "qwen2.5:1.5b"  # Modelo que descargaste con `ollama run llama2`
 
 PERSONALIDAD = """Eres ASIRU, un asistente de inteligencia artificial inspirado en JARVIS.
 Hablas claro y directo, con un toque de humor seco pero nunca exagerado.

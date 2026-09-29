@@ -1,8 +1,10 @@
 """
 main.py - ASIRU Fase 2: escucha, piensa y responde
 
-Escucha lo que dices, lo manda al cerebro (Claude) para que piense una
+Escucha lo que dices, lo manda al cerebro (Ollama) para que piense una
 respuesta con criterio propio, y te la lee en voz alta.
+
+Para mas modelos revia /Info/MODELOS.md
 """
 
 from escuchar import escuchar_y_transcribir
